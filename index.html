@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spintax</title>
+</head>
+
+<body>
+        <div style="max-width: 400px;margin: 0 auto;">
+                <h1>Spintax</h1>
+                <p>Spintax is a "spin syntax" on texts, to randomize combinations using the given input value.</p>
+                <br>
+                <label for="">Input
+                        <textarea style="width: 100%;" name="spintax" id="spintax_source" cols="30"
+                                rows="10"></textarea>
+                </label>
+                <br>
+                <br>
+                <button>Spin!</button>
+                <br>
+                <hr>
+                <label>Output
+                        <div id="spintax_output"></div>
+                </label>
+        </div>
+        <script src="spintax.js" onload='SPINTAX.init("#spintax_source", "#spintax_output", "button");'></script>
+
+</body>
+
+</html>
