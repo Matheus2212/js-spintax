@@ -12,6 +12,8 @@
         <div style="max-width: 400px;margin: 0 auto;">
                 <h1>Spintax</h1>
                 <p>Spintax is a "spin syntax" on texts, to randomize combinations using the given input value.</p>
+                <p>Syntax: { Text combination 1 | Text combination 2}</p>
+                <p>Escaping: You can use "\{", "\}" and "\|" (without brackets) to keep these in the output. </p>
                 <br>
                 <label for="">Input
                         <textarea style="width: 100%;" name="spintax" id="spintax_source" cols="30"
@@ -26,7 +28,7 @@
                         <div id="spintax_output"></div>
                 </label>
         </div>
-        <script src="spintax.js" onload='SPINTAX.init("#spintax_source", "#spintax_output", "button");'></script>
+        <script src="spintax.js" onload='SPINTAX.init("#spintax_source", "#spintax_output", "button",1);'></script>
 
 </body>
 

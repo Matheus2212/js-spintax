@@ -11,4 +11,6 @@ All the 3 as a CSS selector, like this:
 SPINTAX.init("#spintax_source", "#spintax_output", "button");
 ```
 
+After that, you can put up blocks like this: `{I'm a text inside a block|I'm also a text inside a block}` and the script will randomize its contents to show up.
+
 Simple. Really.
